@@ -1,6 +1,9 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 body a {
   text-decoration: none;
-  
 }
 .header-top {
   background-color: #F6F6F6;
@@ -8,8 +11,12 @@ body a {
 .header-top .list {
   list-style: none;
 }
-.header-top .list .list-item .text {
+.header-top .list .list-item {
   color: #555;
+}
+.header-top .list .list-item .text {
+	font-weight: bold;
+	color: #355AD1;
 }
 .header-top .chekbox {
   background-color: #DCE6FF;
@@ -28,7 +35,10 @@ body a {
   color: #000;
 }
 .header-top .btn {
-  color: #000;
+  color: #fff;
+	background-color:#7296EC;
+	width: 89px;
+  height: 45px;
 }
 .header-bottom .nav .nav-list {
   list-style: none;
@@ -40,6 +50,7 @@ body a {
   color: #7F7F7F;
 }
 .main .sectiont-one .list .list-item .card {
+	width: 394px;
   background-color: #F6F6F6;
 }
 .main .sectiont-one .list .list-item .card .link {
@@ -62,14 +73,23 @@ body a {
 }
 .main .article .card {
   background-color: #FFD1B0;
+	width: 1050px;
+height: 100px;
 }
 .main .article .card .btn {
   color: #fff; 
   background-color: 
   #F78B3B;
+	width: 149px;
+height: 50px;
 }
 .main .section-tuo .list {
   list-style: none;
+}
+.main .section-tuo .list .list-item {
+width: 797px;
+background-color: 
+#F6F6F6;
 }
 .main .section-tuo .list .list-item .link {
   color: #000;
@@ -91,7 +111,8 @@ body a {
   font-size: 16px;
   line-height: 19px;
   color: #000;
-  background-color: #EAEAEA   ;
+  background-color: #EAEAEA;
+	
 }
 .main .section-tuo .lists .list {
   list-style: none;
