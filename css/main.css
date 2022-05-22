@@ -24,11 +24,18 @@ body a {
 }
 
 .header-top .header-right .serch {
-	width: 275px;
+  width: 275px;
 	height: 45px;
 	background-color: #fff;
 	display: flex;
 	align-items: center;
+  border-radius: 50px;
+}
+.header-top .header-right .serch .title {
+  font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #8D8D8D;
 }
 
 .header-top .list {
@@ -49,20 +56,29 @@ body a {
 	background-color: #DCE6FF;
 	width: 70px;
 	height: 36px;
+  border-radius: 50px;
 }
 
 .header-top .chekbox .uz {
 	background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
 
 }
 
 .header-top .chekbox .uz .link {
 	color: #000;
+  font-weight: 400;
+font-size: 13px;
+line-height: 15px;
 }
 
 .header-top .chekbox .ru .link {
-
-	color: #000;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #A6A6A6;
 }
 
 .header-top .btn {
@@ -73,6 +89,7 @@ body a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+  border-radius: 10px;
 }
 
 .header-bottom .navbar .nav-list {
@@ -94,6 +111,7 @@ body a {
 .main .sectiont-one .list .list-item .card {
 	width: 394px;
 	background-color: #F6F6F6;
+  border-radius: 15px;
 }
 
 .main .sectiont-one .list .list-item .card .data {
@@ -129,6 +147,7 @@ body a {
 	background-color: #FFD1B0;
 	width: 1050px;
 	height: 100px;
+  border-radius: 15px;
 }
 
 .main .article .card .btn {
@@ -140,6 +159,7 @@ body a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+  border-radius: 10px;
 }
 
 .main .section-tuo {
@@ -155,11 +175,13 @@ body a {
 	width: 797px;
 	background-color:
 		#F6F6F6;
+    border-radius: 15px;
 }
 
 .main .section-tuo .list .list-item .card {
 	display: flex;
 	align-items: center;
+  
 }
 
 .main .section-tuo .list .list-item .card .card-left .link {
@@ -191,11 +213,12 @@ body a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
+  border-radius: 10px;
 }
 
 .main .section-tuo .lists {
 	background-color: #F6F6F6;
+  border-radius: 15px;
 }
 
 .main .section-tuo .lists .list {
