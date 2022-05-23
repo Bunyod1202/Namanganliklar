@@ -102,12 +102,18 @@ line-height: 15px;
 	list-style: none;
 	display: flex;
 	justify-content: space-around;
+	align-items: stretch;
+	width: 1440px;
+	flex-wrap: wrap;
 }
 
 .header-bottom .navbar .nav-list .list-item .item-link {
 	color: #7F7F7F;
 }
 
+.main .sectiont-one .list .list-item {
+ flex-wrap: nowrap;
+}
 .main .sectiont-one .list .list-item .card {
 	width: 394px;
 	background-color: #F6F6F6;
