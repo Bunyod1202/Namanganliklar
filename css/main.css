@@ -221,14 +221,10 @@ line-height: 15px;
 	justify-content: center;
   border-radius: 10px;
 }
-
-.main .section-tuo .lists {
-	background-color: #F6F6F6;
-  border-radius: 15px;
-}
-
 .main .section-tuo .lists .list {
 	list-style: none;
+	background-color: #F6F6F6;
+  border-radius: 15px;
 }
 
 .main .section-tuo .lists .list .list-item .link {
