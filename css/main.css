@@ -289,6 +289,8 @@ body a {
 }
 .footer .footer-top .list {
 	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 .footer .footer-top .list .list-item .item-link {
 	font-weight: 500;
@@ -299,6 +301,10 @@ body a {
 .footer .footer-bottom {
 	display: flex;
 	justify-content: space-between;
+	padding: 20px 0 40px 0;
+}
+.footer .footer-bottom .text {
+ margin: 0;
 }
 .footer .footer-bottom .list {
 	width: 150px;
