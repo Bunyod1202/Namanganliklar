@@ -368,8 +368,8 @@ line-height: 26px;
 }
 
 .main .section-tuo .lists .news-title {
-	margin: 20px 0 8px 0;
-	margin: 12px 0 20px 0;
+	margin: 0;
+
 	font-weight: 500;
 font-size: 24px;
 line-height: 28px;
