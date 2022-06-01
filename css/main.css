@@ -40,7 +40,11 @@ body {
 	padding: 0 20px;
 	margin: 0 auto;
 }
-
+.btn:hover {
+cursor: pointer;
+}.btn {
+	border: none;
+}
 img {
 	vertical-align: middle;
 }
@@ -67,14 +71,28 @@ body a {
 	justify-content: space-around;
 }
 
-.header-top .header-right .serch {
+.header-top .header-right .form {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.header-top .header-right .form .search-btn {
+	border: none;
+	position: absolute;
+	background-color:transparent;
+  left: 10px;
+}
+.header-top .header-right .form .search-btn:hover {
+cursor: pointer;
+}
+.header-top .header-right .form .serch {
 	outline: transparent;
 	width: 275px;
 	background-color: #fff;
 	display: flex;
 	align-items: center;
 	border-radius: 50px;
-	padding: 13px 15px;
+	padding: 13px 15px 13px 41px;
 	border: none;
 	font-weight: 400;
 	font-size: 14px;
