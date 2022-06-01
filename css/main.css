@@ -68,28 +68,30 @@ body a {
 }
 
 .header-top .header-right .serch {
+	outline: transparent;
 	width: 275px;
 	background-color: #fff;
 	display: flex;
 	align-items: center;
 	border-radius: 50px;
 	padding: 13px 15px;
-}
-.header-top .header-right .serch::before {
-content: "";
-width: 20px;
-height: 20px;
-display: block;
-background-image: url("../images/search.svg");
-margin-right: 5px;
-}
-
-.header-top .header-right .serch .title {
+	border: none;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 17px;
 	color: #8D8D8D;
 }
+/* .header-top .header-right .serch::before {
+content: "";
+width: 20px;
+height: 20px;
+position: absolute;
+background-image: url("../images/search.svg");
+
+
+} */
+
+
 
 .header-top .list {
 	list-style: none;
@@ -417,4 +419,111 @@ margin-right: 5px;
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+.hero {
+	padding: 60px 0 100px 0;
+}
+.hero .title {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+}
+.hero .gmail {
+	display: flex;
+	justify-content: space-between;
+}
+.hero .gmail .form {
+	width: 696px;
+}
+.hero .gmail .form .form-group {
+	display: flex;
+	justify-content: space-between;
+}
+.hero .gmail .form  input {
+	width: 100%;
+	height: 55px;
+	padding: 18px 20px;
+	border: 1px solid #00000033;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.hero .gmail .form  input::placeholder {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+	opacity: 0.5;
+}
+.hero .gmail .form  input:nth-child(1) {
+	margin-right: 10px;
+	
+}
+.hero .gmail .form  .textarea {
+	width: 100%;
+	height: 180px;
+	border: 1px solid #00000033;
+	border-radius: 10px;
+	padding: 18px 20px;
+	resize: none;
+}
+.hero .gmail .form  .textarea::placeholder {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+	opacity: 0.5;
+}
+.hero .gmail .lists {
+	width: 494px;
+}
+.hero .gmail .lists .list {
+	margin: 0;
+	padding: 20px 25px;
+	list-style: none;
+	background-color: #F6F6F6;
+	border-radius: 10px;
+}
+.hero .gmail .lists .list .list-item {
+	border-bottom: 1px solid #D2D2D2;
+	padding: 20px 0;
+}
+.hero .gmail .lists .list .list-item:nth-child(3) {
+	border: none;
+
+}
+.hero .gmail .lists .list .list-item .title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+	margin: 0 0 7px 0;
+	
+}
+.hero .gmail .lists .list .list-item .link {
+	font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+
+}
+.hero .buttom {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+.hero .buttom .btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #fff;
+	padding: 17px 30px;
+	background-color: #7297EF;
+	border-radius: 10px;
+	display:inline-block;
+border: none;
+
+}
+.hero .buttom .btn:hover {
+ cursor: pointer;
 }
