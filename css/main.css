@@ -222,6 +222,9 @@ background-image: url("../images/search.svg");
 
 .main .sectiont-one .list .list-item .card .link .title {
 	margin: 0;
+	font-weight: 500;
+font-size: 20px;
+line-height: 26px;
 }
 
 .main .sectiont-one .list .list-item .card .link {
@@ -360,6 +363,7 @@ line-height: 26px;
 	border-radius: 15px;
 	padding: 20px 17px;
 	margin-bottom: 10px;
+	
 }
 
 .main .section-tuo .lists .news-title {
@@ -371,7 +375,8 @@ line-height: 28px;
 
 
 }
-.main .section-tuo .lists .news-title {
+.main .section-tuo .lists .news-text {
+	margin: 0;
 	font-weight: 500;
 font-size: 18px;
 line-height: 24px;
@@ -386,12 +391,20 @@ line-height: 24px;
 
 }
 
+.main .section-tuo .lists .list .list-item {
+	border-bottom: 1px solid #000;
+	padding: 20px 0;
+}
+.main .section-tuo .lists .list .list-item:nth-child(4) {
+border-bottom:0;
+}
 .main .section-tuo .lists .list .list-item .news-blank {
 	margin: 0 0 20px 0;
 }
 
 .main .section-tuo .lists .list .list-item .link .news-title {
 	margin-bottom: 8px;
+
 }
 
 .main .section-tuo .lists .list .list-item .link {
