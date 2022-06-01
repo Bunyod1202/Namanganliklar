@@ -509,7 +509,7 @@ color: #000000;
 }
 .hero .buttom {
 display: flex;
-justify-content: center;
+justify-content: flex-end;
 margin-top: 20px;
 }
 .hero .buttom .btn {
