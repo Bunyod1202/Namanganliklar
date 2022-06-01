@@ -263,6 +263,9 @@ background-image: url("../images/search.svg");
 	height: 100px;
 	border-radius: 15px;
 }
+.main .article .title {
+width: 404px;
+}
 
 .main .article .card .btn {
 	color: #fff;
@@ -313,6 +316,9 @@ background-image: url("../images/search.svg");
 
 .main .section-tuo .news-list .list .list-item .card .card-left .link .card-title {
 	margin: 0;
+	font-weight: 500;
+font-size: 20px;
+line-height: 26px;
 }
 
 .main .section-tuo .news-list .list .list-item .card .card-left .link {
@@ -359,8 +365,18 @@ background-image: url("../images/search.svg");
 .main .section-tuo .lists .news-title {
 	margin: 20px 0 8px 0;
 	margin: 12px 0 20px 0;
-}
+	font-weight: 500;
+font-size: 24px;
+line-height: 28px;
 
+
+}
+.main .section-tuo .lists .news-title {
+	font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+}
 .main .section-tuo .lists .list {
 	list-style: none;
 
@@ -428,6 +444,10 @@ background-image: url("../images/search.svg");
 }
 .footer .footer-bottom .text {
  margin: 0;
+ font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+width: 161px;
 }
 
 .footer .footer-bottom .list {
