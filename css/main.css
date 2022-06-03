@@ -1,29 +1,29 @@
 /* rubik-regular - latin_cyrillic */
 @font-face {
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-       url('../fonts/rubik-v20-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/rubik-v20-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+	url('../fonts/rubik-v20-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	url('../fonts/rubik-v20-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* rubik-500 - latin_cyrillic */
 @font-face {
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 500;
-  src: local(''),
-       url('../fonts/rubik-v20-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/rubik-v20-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 500;
+	src: local(''),
+	url('../fonts/rubik-v20-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	url('../fonts/rubik-v20-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* rubik-700 - latin_cyrillic */
 @font-face {
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 700;
-  src: local(''),
-       url('../fonts/rubik-v20-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/rubik-v20-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 700;
+	src: local(''),
+	url('../fonts/rubik-v20-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+	url('../fonts/rubik-v20-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 * {
@@ -41,7 +41,7 @@ body {
 	margin: 0 auto;
 }
 .btn:hover {
-cursor: pointer;
+	cursor: pointer;
 }.btn {
 	border: none;
 }
@@ -56,7 +56,7 @@ body a {
 .header-top {
 	padding: 30px 0;
 	background-color: #F6F6F6;
-
+	
 }
 
 .header-top-inner {
@@ -80,10 +80,10 @@ body a {
 	border: none;
 	position: absolute;
 	background-color:transparent;
-  left: 10px;
+	left: 10px;
 }
 .header-top .header-right .form .search-btn:hover {
-cursor: pointer;
+	cursor: pointer;
 }
 .header-top .header-right .form .serch {
 	outline: transparent;
@@ -100,13 +100,13 @@ cursor: pointer;
 	color: #8D8D8D;
 }
 /* .header-top .header-right .serch::before {
-content: "";
-width: 20px;
-height: 20px;
-position: absolute;
-background-image: url("../images/search.svg");
-
-
+	content: "";
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background-image: url("../images/search.svg");
+	
+	
 } */
 
 
@@ -147,7 +147,7 @@ background-image: url("../images/search.svg");
 	background-color: #fff;
 	border-radius: 15px;
 	text-align: center;
-
+	
 }
 
 .header-top .chekbox .uz .link {
@@ -195,6 +195,13 @@ background-image: url("../images/search.svg");
 	margin-top: 40px;
 }
 
+.main .sectiont-one .titles {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+	margin: 60px 0 0 0;
+}
 .main .sectiont-one .list {
 	list-style: none;
 	display: flex;
@@ -223,8 +230,8 @@ background-image: url("../images/search.svg");
 .main .sectiont-one .list .list-item .card .link .title {
 	margin: 0;
 	font-weight: 500;
-font-size: 20px;
-line-height: 26px;
+	font-size: 20px;
+	line-height: 26px;
 }
 
 .main .sectiont-one .list .list-item .card .link {
@@ -232,7 +239,7 @@ line-height: 26px;
 	font-size: 20px;
 	line-height: 26px;
 	color: #000;
-
+	
 }
 
 .main .sectiont-one .list .list-item .card .data img {
@@ -240,7 +247,7 @@ line-height: 26px;
 }
 
 .main .sectiont-one .list .list-item .card .data .blenk {
-
+	
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 14px;
@@ -267,13 +274,13 @@ line-height: 26px;
 	border-radius: 15px;
 }
 .main .article .title {
-width: 404px;
+	width: 404px;
 }
 
 .main .article .card .btn {
 	color: #fff;
 	background-color:
-		#F78B3B;
+	#F78B3B;
 	padding: 13px 30px;
 	display: flex;
 	align-items: center;
@@ -291,17 +298,50 @@ width: 404px;
 	justify-content: space-between;
 }
 
+.main .section-tuo .card-lists {
+margin-top: 50px;
+}
 .main .section-tuo .news-list .list {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-
+	
+}
+.main .section-tuo .news .card-group .link {
+	display: flex;
+	align-items: center;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #5E5F61;
+	margin-bottom: 30px;
+}
+.main .section-tuo .news .card-group .link img {
+	margin-right: 10px;
+}
+.main .section-tuo .news .card-group .title {
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 36px;
+	color: #000;
+	margin: 0 0 20px 0;
+}
+.main .section-tuo .news .card-group .card  {
+border-bottom: 1px solid #D2D2D2;
+padding-bottom: 50px;
+}
+.main .section-tuo .news .card-group .card .text {
+margin: 25px 0 0 0 ;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
 }
 
 .main .section-tuo .news-list .list .list-item {
 	width: 797px;
 	background-color:
-		#F6F6F6;
+	#F6F6F6;
 	border-radius: 15px;
 	padding: 20px 17px;
 	margin: 0 0 10px 0;
@@ -310,8 +350,8 @@ width: 404px;
 .main .section-tuo .news-list .list .list-item .card {
 	display: flex;
 	align-items: center;
-
-
+	
+	
 }
 
 .main .section-tuo .news-list .list .list-item .card .card-left {
@@ -321,8 +361,8 @@ width: 404px;
 .main .section-tuo .news-list .list .list-item .card .card-left .link .card-title {
 	margin: 0;
 	font-weight: 500;
-font-size: 20px;
-line-height: 26px;
+	font-size: 20px;
+	line-height: 26px;
 }
 
 .main .section-tuo .news-list .list .list-item .card .card-left .link {
@@ -369,27 +409,27 @@ line-height: 26px;
 
 .main .section-tuo .lists .news-title {
 	margin: 0;
-
+	
 	font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-
-
+	font-size: 24px;
+	line-height: 28px;
+	
+	
 }
 .main .section-tuo .lists .news-text {
 	margin: 0;
 	font-weight: 500;
-font-size: 18px;
-line-height: 24px;
-
+	font-size: 18px;
+	line-height: 24px;
+	
 }
 .main .section-tuo .lists .list {
 	list-style: none;
-
+	
 	margin: 0;
 	padding: 0;
 	width: 360px;
-
+	
 }
 
 .main .section-tuo .lists .list .list-item {
@@ -397,7 +437,7 @@ line-height: 24px;
 	padding: 20px 0;
 }
 .main .section-tuo .lists .list .list-item:nth-child(4) {
-border-bottom:0;
+	border-bottom:0;
 }
 .main .section-tuo .lists .list .list-item .news-blank {
 	margin: 0 0 20px 0;
@@ -405,7 +445,7 @@ border-bottom:0;
 
 .main .section-tuo .lists .list .list-item .link .news-title {
 	margin-bottom: 8px;
-
+	
 }
 
 .main .section-tuo .lists .list .list-item .link {
@@ -413,7 +453,7 @@ border-bottom:0;
 	font-size: 18px;
 	line-height: 24px;
 	color: #000;
-
+	
 }
 
 .main .section-tuo .lists .list .list-item .blank {
@@ -457,11 +497,11 @@ border-bottom:0;
 	padding: 20px 0 40px 0;
 }
 .footer .footer-bottom .text {
- margin: 0;
- font-weight: 500;
-font-size: 18px;
-line-height: 23px;
-width: 161px;
+	margin: 0;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 23px;
+	width: 161px;
 }
 
 .footer .footer-bottom .list {
@@ -542,7 +582,7 @@ width: 161px;
 }
 .hero .gmail .lists .list .list-item:nth-child(3) {
 	border: none;
-
+	
 }
 .hero .gmail .lists .list .list-item .title {
 	font-weight: 500;
@@ -554,15 +594,15 @@ width: 161px;
 }
 .hero .gmail .lists .list .list-item .link {
 	font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-color: #000000;
-
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+	
 }
 .hero .buttom {
-display: flex;
-justify-content: flex-end;
-margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
 }
 .hero .buttom .btn {
 	font-weight: 500;
@@ -573,9 +613,9 @@ margin-top: 20px;
 	background-color: #7297EF;
 	border-radius: 10px;
 	display:inline-block;
-border: none;
-
+	border: none;
+	
 }
 .hero .buttom .btn:hover {
- cursor: pointer;
+	cursor: pointer;
 }
