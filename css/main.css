@@ -620,3 +620,92 @@ color: #000000;
 .hero .buttom .btn:hover {
 	cursor: pointer;
 }
+
+
+
+
+.switch {
+  position: relative;
+  width: 75px;
+	margin: 0 25px;
+}
+.switch input[type=checkbox] {
+  display: none;
+}
+.switch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+	position: relative;
+  border-radius: 50px;
+	background-color: #DCE6FF;
+}
+.switch-inner {
+
+
+  transition: margin 0.3s ease-in 0s;
+}
+.switch-inner:before, .switch-inner:after {
+  float: left;
+  width: 50%;
+  height: 40px;
+  padding: 0;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 15px;
+	background-color: transparent;
+  color: #000;;
+  box-sizing: border-box;
+	z-index: 2;
+}
+.switch-inner:before {
+  content: "УЗ";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	height: 40px;
+  color: #000;
+}
+.switch-inner:after {
+  content: "РУ";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  color: #524c44;
+  text-align: right;
+}
+.switch-click {
+	width: 35px;
+  margin: 3px;
+  background: #ffffff;
+  border: 0px solid #f3c846;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+	z-index: 	0;
+  right: 33px;
+	content: "Dfwesdwef";
+  transition: all 0.3s ease-in 0s;
+}
+.switch-click::before {
+	text-align: center;
+	margin-top: 9px;
+	content:"УЗ" ;
+	display: block;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 15px;
+	transition: all 2s linear;
+}
+.switch-checkbox:checked + .switch-label .switch-click::before {
+	content:"РУ" ;
+	transition: all 1s linear;
+}
+.switch-checkbox:checked + .switch-label .switch-inner {
+  margin-left: 0;
+}
+.switch-checkbox:checked + .switch-label .switch-click {
+	right: 1px;
+}
