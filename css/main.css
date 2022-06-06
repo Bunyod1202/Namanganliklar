@@ -704,8 +704,17 @@ color: #000000;
 	transition: all 1s linear;
 }
 .switch-checkbox:checked + .switch-label .switch-inner {
-  margin-left: 0;
+	margin-left: 0;
 }
 .switch-checkbox:checked + .switch-label .switch-click {
 	right: 1px;
 }
+/* .switch-checkbox:checked .page-uz {
+	display: block;
+}
+.switch-checkbox:checked body .page-ru {
+display: none;
+}
+.page-uz {
+	display: none;
+} */
